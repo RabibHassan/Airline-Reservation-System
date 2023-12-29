@@ -272,6 +272,8 @@ while True:
     number=int(input('How many tickets do you want to book?'))
     code=input('Kindly enter the flight code of your desired flight(eg.- CD02,UB01):')
     break
+
+
 r=Reservation(type1,triptype,date,source,dest,number,code)
 cost= r.reservationCost(type1)
 #print(cost)
